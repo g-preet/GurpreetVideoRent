@@ -20,6 +20,8 @@ namespace GurpreetVideoRent
             InitializeComponent();
             //Caling the customer data when form will load
             CustomerList();
+            this.customerListDGV.DefaultCellStyle.ForeColor = Color.Blue;
+            this.customerListDGV.DefaultCellStyle.BackColor = Color.Beige;
         }
         //Binding the customers in this function
         private void CustomerList()

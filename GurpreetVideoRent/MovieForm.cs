@@ -20,6 +20,8 @@ namespace GurpreetVideoRent
             InitializeComponent();
             //Caling the movie data when form will load
             MovieList();
+            this.movieListDGV.DefaultCellStyle.ForeColor = Color.Blue;
+            this.movieListDGV.DefaultCellStyle.BackColor = Color.Beige;
         }
         //Binding the movie in this function
         private void MovieList()
